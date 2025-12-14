@@ -64,3 +64,23 @@ Sweet-Shop-Management-System/
 │
 ├── frontend/   → React SPA (UI, dashboard, user interaction)
 ├── backend/    → FastAPI (APIs, auth, business logic)
+
+
+---
+
+# API Documentation (Swagger)
+
+This project includes an interactive Swagger UI for exploring and testing the backend REST APIs.
+
+# Swagger URL (Local)
+http://127.0.0.1:8000/docs
+
+
+> Note: Run the backend locally using FastAPI to access the Swagger documentation.
+
+# Swagger Preview
+
+(swagger.png)<img width="1366" height="768" alt="swagger" src="https://github.com/user-attachments/assets/0cabce5a-30c8-47e8-a790-4156e8125095" />
+
+
+The Swagger UI provides complete visibility of all available endpoints including authentication, sweets management, inventory operations, and role-based access control.
